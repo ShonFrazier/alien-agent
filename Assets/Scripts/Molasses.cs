@@ -20,7 +20,6 @@ public class Molasses : MonoBehaviour
   {
     var orbVel = collision.attachedRigidbody.velocity;
     var newVel = orbVel * 0.25f;
-    Debug.Log($"collision - orbVel {orbVel}  newVel {newVel}");
     collision.attachedRigidbody.velocity = newVel;
   }
 }
